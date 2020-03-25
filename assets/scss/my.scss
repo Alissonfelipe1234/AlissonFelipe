@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+// Set colors
+$back-yellow: rgb(255, 255, 233);
+$light-yellow: rgb(255, 247, 211);
+
+//bulma
+$danger: $light-yellow;
+$body-background-color: $back-yellow;
+$control-border-width: 2px;
+
+@import "./node_modules/bulma/bulma.sass";
+
+.navbar-start {
+  flex-grow: 1;
+  justify-content: center;
+  margin-right: auto;
+}
+$sizes: (0, 1, 2, 3, 4, 5, 6);
+$positions: (("t", "top"), ("r", "right"), ("b", "bottom"), ("l", "left"));
+
+@each $size in $sizes {
+  .m-#{$size} {
+    margin: $size + em;
+  }
+  .p-#{$size} {
+    padding: $size + em;
+  }
+  @each $position in $positions {
+    $posKey: nth($position, 1);
+    $posValue: nth($position, 2);
+    .m-#{$posKey}-#{$size} {
+        margin-#{$posValue}: $size + em;
+    }
+    .p-#{$posKey}-#{$size} {
+        padding-#{$posValue}: $size + em;
+    }
+  }
+}
