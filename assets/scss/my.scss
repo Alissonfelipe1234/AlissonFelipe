@@ -9,15 +9,28 @@ $danger: $light-yellow;
 $body-background-color: $back-yellow;
 $control-border-width: 2px;
 
-@import "./node_modules/bulma/bulma.sass";
+@import "./node_modules/bulma/sass/utilities/_all.sass";
+@import "./node_modules/bulma/sass/base/_all.sass";
+@import "./node_modules/bulma/sass/grid/_all.sass";
+@import "./node_modules/bulma/sass/elements/container.sass";
+@import "./node_modules/bulma/sass/elements/title.sass";
+@import "./node_modules/bulma/sass/elements/box.sass";
+@import "./node_modules/bulma/sass/elements/icon.sass";
+@import "./node_modules/bulma/sass/elements/image.sass";
+@import "./node_modules/bulma/sass/elements/progress.sass";
+@import "./node_modules/bulma/sass/elements/table.sass";
+@import "./node_modules/bulma/sass/elements/title.sass";
+@import "./node_modules/bulma/sass/elements/button.sass";
+@import "./node_modules/bulma/sass/components/navbar.sass";
+@import "./node_modules/bulma/sass/layout/footer.sass";
 
 .navbar-start {
   flex-grow: 1;
   justify-content: center;
   margin-right: auto;
 }
-.progressTable{
-    width: 80%;
+.progressTable {
+  width: 80%;
 }
 
 $sizes: (0, 1, 2, 3, 4, 5, 6);
@@ -34,10 +47,10 @@ $positions: (("t", "top"), ("r", "right"), ("b", "bottom"), ("l", "left"));
     $posKey: nth($position, 1);
     $posValue: nth($position, 2);
     .m-#{$posKey}-#{$size} {
-        margin-#{$posValue}: $size + em;
+      margin-#{$posValue}: $size + em;
     }
     .p-#{$posKey}-#{$size} {
-        padding-#{$posValue}: $size + em;
+      padding-#{$posValue}: $size + em;
     }
   }
 }

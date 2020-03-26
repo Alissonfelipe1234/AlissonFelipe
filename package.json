@@ -6,7 +6,8 @@
   "scripts": {
     "test": "html-validate index.html",
     "start": "light-server -s . -w '*.html # echo updating... ok'",
-    "css-build": "node-sass --omit-source-map-url ./assets/scss/my.scss > assets/css/style.css"
+    "css-build": "node-sass --omit-source-map-url ./assets/scss/my.scss > assets/css/style.css",
+    "css-deploy": "node-sass ./assets/scss/my.scss assets/css/style.css --output-style compressed"
   },
   "repository": {
     "type": "git",
