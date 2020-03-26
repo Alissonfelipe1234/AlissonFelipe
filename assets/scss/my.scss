@@ -16,6 +16,10 @@ $control-border-width: 2px;
   justify-content: center;
   margin-right: auto;
 }
+.progressTable{
+    width: 80%;
+}
+
 $sizes: (0, 1, 2, 3, 4, 5, 6);
 $positions: (("t", "top"), ("r", "right"), ("b", "bottom"), ("l", "left"));
 
