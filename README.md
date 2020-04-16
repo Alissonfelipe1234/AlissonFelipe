@@ -1,7 +1,7 @@
 [Website](https://alissonfelipe1234.github.io)\
 [Personal Data](#about-me)\
 [Education](#education)\
-[Contact](#contact-me)\
+[Contact](#contact-me)
 
 Alisson Felipe Martim Da Silva
 ==============================
