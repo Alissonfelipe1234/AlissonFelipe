@@ -3,9 +3,8 @@
 [Education](#education)\
 [Contact](#contact-me)
 
-Alisson Felipe Martim Da Silva
+Alisson Felipe Martim Da Silva ![Node.js CI](https://github.com/Alissonfelipe1234/Alissonfelipe1234.github.io/workflows/Node.js%20CI/badge.svg)
 ==============================
-
 # About me
 
 Undergraduate student in 5th semester of systems development at Federal Institute of São Paulo with interest in IA, Machine Learning, Deep Learning and Data Science.
