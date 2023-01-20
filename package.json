@@ -31,7 +31,7 @@
     "bulma": "^0.8.0",
     "html-validate": "^2.18.1",
     "light-server": "^2.6.4",
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   },
   "dependencies": {}
 }
